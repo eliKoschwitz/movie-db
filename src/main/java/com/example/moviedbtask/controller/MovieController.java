@@ -36,6 +36,7 @@ public class MovieController {
 
     @PutMapping("/api/movies/{id}")
     public Movie updateMovieById(@PathVariable String id, @RequestBody Movie movie){
+        System.out.println(movie.isFavorit());
         return movieService.updateMovieById(id, movie.isFavorit());
     }
 

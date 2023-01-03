@@ -3,10 +3,8 @@ package com.example.moviedbtask.repo;
 import com.example.moviedbtask.model.Movie;
 import lombok.Data;
 import org.springframework.stereotype.Repository;
-import java.util.ArrayList;
-import java.util.EmptyStackException;
 import java.util.List;
-import java.util.NoSuchElementException;
+
 
 @Data
 @Repository
